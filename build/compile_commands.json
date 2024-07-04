@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Ozy/Documents/GodotProjects/BeaverVision/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\BeaverVision.dir\\src\\test.cpp.obj -c C:\\Users\\Ozy\\Documents\\GodotProjects\\BeaverVision\\src\\test.cpp",
+  "file": "C:/Users/Ozy/Documents/GodotProjects/BeaverVision/src/test.cpp",
+  "output": "CMakeFiles/BeaverVision.dir/src/test.cpp.obj"
+}
+]
