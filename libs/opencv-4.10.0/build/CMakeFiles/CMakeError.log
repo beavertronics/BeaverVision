@@ -1,0 +1,545 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_24fcb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_24fcb.dir/build.make CMakeFiles/cmTC_24fcb.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24fcb.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_24fcb.dir/src.c.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c"
+cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_24fcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24fcb.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_24fcb.dir/src.c.o -o cmTC_24fcb 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0471e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0471e.dir/build.make CMakeFiles/cmTC_0471e.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0471e.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_0471e.dir/src.cxx.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx"
+cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_0471e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0471e.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_0471e.dir/src.cxx.o -o cmTC_0471e 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_52d3f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_52d3f.dir/build.make CMakeFiles/cmTC_52d3f.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52d3f.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_52d3f.dir/src.cxx.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx"
+cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_52d3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52d3f.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_52d3f.dir/src.cxx.o -o cmTC_52d3f 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f2a8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f2a8.dir/build.make CMakeFiles/cmTC_1f2a8.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f2a8.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_1f2a8.dir/src.c.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c"
+cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_1f2a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f2a8.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_1f2a8.dir/src.c.o -o cmTC_1f2a8 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9a29/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9a29.dir/build.make CMakeFiles/cmTC_d9a29.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9a29.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_d9a29.dir/src.c.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c"
+cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_d9a29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9a29.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_d9a29.dir/src.c.o -o cmTC_d9a29 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ac06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ac06.dir/build.make CMakeFiles/cmTC_3ac06.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ac06.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_3ac06.dir/src.c.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c"
+cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_3ac06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ac06.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_3ac06.dir/src.c.o -o cmTC_3ac06 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7f331/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7f331.dir/build.make CMakeFiles/cmTC_7f331.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f331.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_7f331.dir/src.cxx.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_7f331
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f331.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_7f331.dir/src.cxx.o -o cmTC_7f331 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_78556/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_78556.dir/build.make CMakeFiles/cmTC_78556.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78556.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_78556.dir/src.c.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_78556
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78556.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_78556.dir/src.c.o -o cmTC_78556 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4007f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4007f.dir/build.make CMakeFiles/cmTC_4007f.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4007f.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_4007f.dir/src.c.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c"
+cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_4007f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4007f.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_4007f.dir/src.c.o -o cmTC_4007f 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c1d36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c1d36.dir/build.make CMakeFiles/cmTC_c1d36.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1d36.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_c1d36.dir/src.c.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_c1d36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1d36.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c1d36.dir/src.c.o -o cmTC_c1d36 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-documentation’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-documentation'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_95465/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95465.dir/build.make CMakeFiles/cmTC_95465.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95465.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-documentation -o CMakeFiles/cmTC_95465.dir/src.c.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-documentation’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_95465
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95465.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_95465.dir/src.c.o -o cmTC_95465 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_010ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_010ce.dir/build.make CMakeFiles/cmTC_010ce.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_010ce.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_010ce.dir/CheckSymbolExists.c.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+    8 |   return ((int*)(&_aligned_malloc))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[1]: *** [CMakeFiles/cmTC_010ce.dir/build.make:78: CMakeFiles/cmTC_010ce.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_010ce/fast] Error 2
+
+
+File /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dddd2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dddd2.dir/build.make CMakeFiles/cmTC_dddd2.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dddd2.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_dddd2.dir/src.cxx.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_dddd2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dddd2.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_dddd2.dir/src.cxx.o -o cmTC_dddd2 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c3fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c3fb.dir/build.make CMakeFiles/cmTC_3c3fb.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c3fb.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_3c3fb.dir/src.cxx.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx"
+cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_3c3fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c3fb.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_3c3fb.dir/src.cxx.o -o cmTC_3c3fb 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b45f3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b45f3.dir/build.make CMakeFiles/cmTC_b45f3.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b45f3.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -std=c++11 -o CMakeFiles/cmTC_b45f3.dir/src.cxx.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_b45f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b45f3.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b45f3.dir/src.cxx.o -o cmTC_b45f3 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d1426/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d1426.dir/build.make CMakeFiles/cmTC_d1426.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1426.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_d1426.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d1426
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1426.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_d1426.dir/CheckFunctionExists.c.o -o cmTC_d1426 
+/usr/bin/ld: CMakeFiles/cmTC_d1426.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_d1426.dir/build.make:99: cmTC_d1426] Error 1
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d1426/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c1a22/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c1a22.dir/build.make CMakeFiles/cmTC_c1a22.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c1a22.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_c1a22.dir/src.cxx.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_c1a22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1a22.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c1a22.dir/src.cxx.o -o cmTC_c1a22 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_63230/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_63230.dir/build.make CMakeFiles/cmTC_63230.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63230.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_63230.dir/src.cxx.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_63230
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63230.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_63230.dir/src.cxx.o -o cmTC_63230 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9867a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9867a.dir/build.make CMakeFiles/cmTC_9867a.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9867a.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_9867a.dir/src.cxx.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_9867a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9867a.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_9867a.dir/src.cxx.o -o cmTC_9867a 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-comma’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-comma'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da29b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da29b.dir/build.make CMakeFiles/cmTC_da29b.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da29b.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-comma -std=c++11 -o CMakeFiles/cmTC_da29b.dir/src.cxx.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-comma’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_da29b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da29b.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_da29b.dir/src.cxx.o -o cmTC_da29b 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_832ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_832ab.dir/build.make CMakeFiles/cmTC_832ab.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_832ab.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_832ab.dir/CheckIncludeFile.c.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_832ab.dir/build.make:78: CMakeFiles/cmTC_832ab.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_832ab/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-unused-private-field’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bac3e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bac3e.dir/build.make CMakeFiles/cmTC_bac3e.dir/build
+gmake[1]: Entering directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bac3e.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-unused-private-field -std=c++11 -o CMakeFiles/cmTC_bac3e.dir/src.cxx.o -c "/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx"
+/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-unused-private-field’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_bac3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bac3e.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_bac3e.dir/src.cxx.o -o cmTC_bac3e 
+gmake[1]: Leaving directory '/home/ozy/Programming Projects/BeaverVision/libs/opencv-4.10.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
